@@ -23,7 +23,14 @@ Tags:
 * <section>+</section>
 
 TODO:
-* 18:00-19:50 installing icons
+* read about hooks in react documentation
+
+Lookup:
+* useState
+* Hooks
+* 
 
 
-Left off: 31.42 added firebase in dependencies, now downloading it
+Left off: 1.51.58 projects
+Might wanna go back a lot to understand Sidebar and everything in context
+

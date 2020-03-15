@@ -5,12 +5,14 @@ export const Header = () =>  {
   return <header className="header" data-testid="header">
     <nav>
       <div className="logo">
-        <img src="/image/logo.png" alt="Todoist" />
+        <img src="/images/logo.png" alt="Todoist" />
       </div>
       <div className="settings">
         <ul>
-          <li>+</li>
-          <li>
+          <li data-testid="quick-add-task-action" className="setting__add">
+            +
+          </li>
+          <li data-testid="dark-mode-action" className="settings__darkmode">
             <FaPizzaSlice/>
           </li>
         </ul>
